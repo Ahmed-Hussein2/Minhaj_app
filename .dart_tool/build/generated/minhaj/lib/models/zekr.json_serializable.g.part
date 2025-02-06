@@ -1,0 +1,15 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Zekr _$ZekrFromJson(Map<String, dynamic> json) => Zekr(
+      zekr: json['zekr'] as String?,
+      repeat: json['repeat'] as int?,
+      bless: json['bless'] as String?,
+    );
+
+Map<String, dynamic> _$ZekrToJson(Zekr instance) => <String, dynamic>{
+      'zekr': instance.zekr,
+      'repeat': instance.repeat,
+      'bless': instance.bless,
+    };

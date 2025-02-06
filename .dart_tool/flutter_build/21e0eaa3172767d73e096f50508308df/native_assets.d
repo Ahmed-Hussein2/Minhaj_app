@@ -1,0 +1,1 @@
+ D:\\Flutter\ Projects\\minhaj\\.dart_tool\\flutter_build\\21e0eaa3172767d73e096f50508308df\\native_assets.yaml: 
